@@ -25,13 +25,13 @@ function BinarioParaDecimal(number){
 
     document.getElementById("resultado").textContent = "Decimal: " + numeroDecimal;
     document.getElementById("numeroDigitado").textContent = "Número digitado: " + entrada;
-    document.getElementById("card").classList.remove("d-none");
+    document.getElementById("cardResultado").classList.remove("d-none");
     document.getElementById("botaoRepetir").classList.remove("d-none");
 }
 
 function Repetir(){
     document.getElementById("numeroBinario").value = "";
-    document.getElementById("card").classList.add("d-none");
+    document.getElementById("cardResultado").classList.add("d-none");
     document.getElementById("botaoRepetir").classList.add("d-none");
 
 }
